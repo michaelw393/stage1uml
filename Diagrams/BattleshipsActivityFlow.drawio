@@ -1,0 +1,103 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="27.0.3">
+  <diagram name="Page-1" id="4VlvzFstFHlsjYEoIkJa">
+    <mxGraphModel dx="1182" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="muWpOcIlmi0f4V8lnQrZ-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="360" y="30" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="muWpOcIlmi0f4V8lnQrZ-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="muWpOcIlmi0f4V8lnQrZ-1" parent="1" target="muWpOcIlmi0f4V8lnQrZ-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="muWpOcIlmi0f4V8lnQrZ-3" value="Player makes guess about opposition ship location" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="320" y="100" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="muWpOcIlmi0f4V8lnQrZ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="muWpOcIlmi0f4V8lnQrZ-4" target="muWpOcIlmi0f4V8lnQrZ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="muWpOcIlmi0f4V8lnQrZ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="muWpOcIlmi0f4V8lnQrZ-4" target="muWpOcIlmi0f4V8lnQrZ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="muWpOcIlmi0f4V8lnQrZ-4" value="Check if hit or miss" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="325" y="250" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="muWpOcIlmi0f4V8lnQrZ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="muWpOcIlmi0f4V8lnQrZ-3" target="muWpOcIlmi0f4V8lnQrZ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="muWpOcIlmi0f4V8lnQrZ-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="muWpOcIlmi0f4V8lnQrZ-6" target="muWpOcIlmi0f4V8lnQrZ-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="muWpOcIlmi0f4V8lnQrZ-6" value="Update player&#39;s grid with miss mark" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="530" y="275" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="muWpOcIlmi0f4V8lnQrZ-8" value="miss" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="275" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="muWpOcIlmi0f4V8lnQrZ-10" value="Update player&#39;s grid with hit" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="320" y="410" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="muWpOcIlmi0f4V8lnQrZ-13" value="hit" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="360" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="muWpOcIlmi0f4V8lnQrZ-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="muWpOcIlmi0f4V8lnQrZ-15" target="muWpOcIlmi0f4V8lnQrZ-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="570" />
+              <mxPoint x="680" y="45" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="muWpOcIlmi0f4V8lnQrZ-15" value="Check if &lt;br&gt;ship sunk" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="325" y="520" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="muWpOcIlmi0f4V8lnQrZ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="muWpOcIlmi0f4V8lnQrZ-10" target="muWpOcIlmi0f4V8lnQrZ-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="muWpOcIlmi0f4V8lnQrZ-19" value="not sunk" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="535" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="muWpOcIlmi0f4V8lnQrZ-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="muWpOcIlmi0f4V8lnQrZ-23" target="muWpOcIlmi0f4V8lnQrZ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="muWpOcIlmi0f4V8lnQrZ-23" value="Change attacking turn to other player" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="15" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="muWpOcIlmi0f4V8lnQrZ-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="muWpOcIlmi0f4V8lnQrZ-27" target="muWpOcIlmi0f4V8lnQrZ-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="743" />
+              <mxPoint x="680" y="45" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="muWpOcIlmi0f4V8lnQrZ-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="muWpOcIlmi0f4V8lnQrZ-27" target="muWpOcIlmi0f4V8lnQrZ-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="muWpOcIlmi0f4V8lnQrZ-27" value="Check if &lt;br&gt;opposition has remaining &lt;br&gt;ships" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="312.5" y="680" width="125" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="muWpOcIlmi0f4V8lnQrZ-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="muWpOcIlmi0f4V8lnQrZ-15" target="muWpOcIlmi0f4V8lnQrZ-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="muWpOcIlmi0f4V8lnQrZ-30" value="yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="710" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="muWpOcIlmi0f4V8lnQrZ-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="muWpOcIlmi0f4V8lnQrZ-32" target="muWpOcIlmi0f4V8lnQrZ-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="muWpOcIlmi0f4V8lnQrZ-32" value="Current attacking player wins" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="320" y="870" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="muWpOcIlmi0f4V8lnQrZ-34" value="no" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="377.5" y="820" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="muWpOcIlmi0f4V8lnQrZ-35" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="360" y="980" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
